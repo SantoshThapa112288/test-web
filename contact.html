@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+</title>
+<style>
+
+body{
+background-color:#F2F5FC;}
+
+/* Header and Footer Style */
+.headerlink {
+text-decoration:none;
+color:white;
+}
+
+.logoimage{
+height:100px;
+width:300px;}
+
+.headertable{
+background-color:#F2F5FC;
+color:#164283;
+width:100%;
+}
+
+/* start of nav style part */
+
+nav {
+background:#074572;
+border-radius: 5px;
+}
+
+.dropdownbutton{
+color:white;
+background-color: #074572;
+border:none;
+border-radius:5px;
+box-shadow: 2px 0px 0px black;
+font-size:16px;
+padding:10px;
+margin-right: 30px;
+width: 150px;
+}
+.dropdownbutton:hover{box-shadow: 2px 2px 2px white;
+}
+
+.dropdown{
+position: relative;
+display: inline-block;
+}
+
+.dropdowncontent{
+display:none;
+position:absolute;
+border-radius: 5px;
+width:150px;
+background:rgba(7, 69, 114, 0.8);
+z-index:10;
+}
+
+.dropdowncontent a {
+color:white;
+display: block;
+text-decoration: none;
+padding: 10px;
+}
+
+.dropdown:hover .dropdowncontent{
+display: block;
+}
+
+.dropdowncontent a:hover {
+border-radius:0px;
+background-color: #074572;
+}
+
+/* end of nav style part */
+
+/*start of footer style section*/
+
+.footertable{
+background-color: #074572;
+color:white;
+width: 100%;
+padding: 10px;
+border-spacing: 10px;
+line-height: 1.6;
+}
+
+td {text-align:center;}
+
+
+.footerbutton {display:block;
+border:none;
+box-shadow: 1px 1px 2px;
+color:white;
+line-height:1.6;
+width: 150px;
+border-radius:5px;
+background-color:#FC7300;
+}
+
+.socialbutton>img{
+border-radius:5px;
+box-shadow: 1px 1px 1px white;
+height:25px;
+width:25px;
+}
+
+.socialbutton>img:hover {
+opacity:0.5;
+transform:scale(1.2);
+}
+
+.footerbutton:hover {
+background-color:white;
+color:black;}
+
+.link {
+color:white;
+text-decoration:none;
+}
+
+.link:hover {
+background-color:white;
+color:black;
+padding:1px;
+}
+
+/* start of footer style section */
+/* Header and Style Footer Part */
+
+.contactbox{
+display:flex;
+gap:5px;
+}
+
+.info {
+background-color:none;
+width:50%;
+margin-left:20px;
+}
+
+.contact-container{
+background-color:none;
+width:50%;
+margin-left:20px;
+}
+
+#fullname, #contactno, #email, #message {
+padding: 10px;
+margin-bottom: 20px;
+border-radius:5px;
+width:500px;
+font-size: 16px;
+border: 1px solid lightgray;}
+
+#message {height:125px;}
+
+.submit{
+color:white;
+background-color:#FC7300;
+width:100px;
+padding:10px;
+font-size:16px;
+border: 1px solid lightgray;
+border-radius:20px;
+}
+
+.submit:hover {
+background-color:#F2CD5C;
+color:black;}
+
+
+
+
+</style>
+</head>
+
+
+
+<body>
+
+<header>
+
+<table class="headertable">
+<tr>
+<td rowspan="3"><img src="image/logo.jpg" class="logoimage"/></td><td><em>"Discover Himalayas"<em></td>
+</tr>
+<tr>
+<td> For inquiry/booking: Call Us at <a href="callto:+977 9800000000">+977 9800000000</a> </td>
+</tr>
+<tr>
+<td> For inquiry/booking: Email Us at <a href="mailto:himalayatravels@himalaya.com">himalayatravels@himalaya.com</a></td>
+</tr>
+</table>
+
+</header>
+<br/>
+
+
+<!-- start of navigational section -->
+
+<nav align="center">
+<div class="dropdown">
+<button class="dropdownbutton" > <a href="index.html" class="headerlink">Home</a></button>
+</div>
+
+<div class="dropdown">
+<button class="dropdownbutton">  Trekking </button>
+<div class="dropdowncontent">
+<a href="gallery.html" target="_blank">Everest Base Trek</a>
+<a href="gallery.html" target="_blank">Annapurna Round Trek</a>
+<a href="gallery.html" target="_blank">Langtang Valley Trek</a>
+<a href="gallery.html" target="_blank">Gokyo Valley Trek</a>
+</div></div>
+
+<div class="dropdown">
+<button class="dropdownbutton" > Tours </button>
+<div class="dropdowncontent">
+<a href="gallery.html" target="_blank">Kathmandu Valley Tour</a>
+<a href="gallery.html" target="_blank">Janakpur Tour</a>
+<a href="gallery.html" target="_blank">Lumbini Tour</a>
+<a href="gallery.html" target="_blank">Pokhara Tour</a>
+</div></div>
+
+<div class="dropdown">
+<button class="dropdownbutton" > Company </button>
+<div class="dropdowncontent">
+<a href="contact.html" target="_blank">About Us</a>
+<a href="contact.html" target="_blank">Terms and Condition</a>
+<a href="contact.html" target="_blank">Contact</a>
+</div></div>
+
+<div class="dropdown">
+<button class="dropdownbutton" > <a href="gallery.html" class="headerlink" target="_blank"> Gallery </a></button>
+</div>
+
+<div class="dropdown">
+<button class="dropdownbutton"> <a href="contact.html" class="headerlink" target="_blank">Contact</a> </button>
+</div></nav>
+
+<!-- End of navigational section -->
+
+<br>
+<br>
+
+<!-- Start of Contact Section -->
+
+<div class="contactus">
+
+</div>
+
+<div class="contactbox">
+<div class="info"> 
+<h1> Himalaya Travels </h1>
+<br/>
+<br/>
+
+<p> 
+<b>Location:</b> Kathmandu, Bagmati, Nepal. [Open hours - 10am - 5pm] <br/><br/><br/>
+
+<b>Contact No:</b> +977 9800000000 <br><br/><br/>
+
+<b>Email:</b> himalayatravels@himalaya.com  <br><br/><br/>
+
+<b>Mailing Address:</b> Post Box No: 777777 Kathmandu, Bagmati, Nepal  <br><br/><br/>
+
+
+</p>
+
+</div>
+
+
+<div class="contact-container">
+<h1>Any Questions?Let Us Know.</h1>
+<form>
+<label for="fullname"> Full Name*</label><br>
+<input id="fullname" placeholder="Full Name"><br>
+<label for="contactno">Contact Number*</label><br>
+<input id="contactno" placeholder="Mobile Number"><br>
+<label for="email">Email Address*</label><br>
+<input id="email" type="email" placeholder="example@email.com"><br>
+<label for="message">Your Message*</label><br>
+<textarea id="message" placeholder="Your Message Here..."></textarea><br>
+<center><button type="submit" class="submit">Submit</button></center>
+
+</form>
+</div>
+
+</div>
+<br/>
+<br/>
+
+<section>
+<center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.9060775269745!2d85.280381174270
+83!3d27.68929762628948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1871d4b1c0c3%3A0x3025b33488e
+13807!2sKathmandu%2044618%2C%20Nepal!5e0!3m2!1sen!2sjp!4v1675429988641!5m2!1sen!2sjp" 
+width="80%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</center>
+</section>
+
+
+<div>
+<center><h1>Subscribe and Win a Free Everest Trek!</h1></center>
+<center><input type="email" id="email" placeholder="Enter your Email address">
+<button type="submit" class="submit">Submit</button></center>
+</div>
+
+
+
+<!-- End of Contact Section -->
+
+
+
+<!--Start of footer section-->
+<footer>
+<table class="footertable">
+<tr>
+<th colspan="5">FOLLOW US ON: &nbsp; &nbsp;
+<a href="#" class="socialbutton" target="_blank"><img src="image/fa.JPG" /></a> &nbsp; &nbsp;
+<a href="#" class="socialbutton" target="_blank"><img src="image/in.JPG" /></a> &nbsp; &nbsp;
+<a href="#" class="socialbutton" target="_blank"><img src="image/tw.JPG" /></a>
+</th>
+</tr>
+<tr>
+<th><a href="#" target="_blank"class="link">PAGES</a></th><th><a href="#" class="link">USEFUL LINKS</a></th>
+<th><a href="#" target="_blank"class="link">ACTIVITIES</a></th><th><a href="#" class="link">TREKKING & TOURS</a></th>
+<th rowspan="3">
+<button class="footerbutton">CALL US FOR MORE DETAILS</button><br>
+<button class="footerbutton">PLAN MY TRIP</button><br>
+<button class="footerbutton"><a href="contact.html" target="_blank" class="link">CONTACT</a></button>
+</th>
+</tr>
+<tr>
+<td>
+<a href="#" target="_blank" class="link">HOME</a><br>
+<a href="#" target="_blank" class="link">OUR TEAM</a><br>
+<a href="#" target="_blank" class="link">B2B PARTNER</a><br>
+<a href="#" target="_blank" class="link">CONTACT</a>
+</ul>
+</td>
+<td>
+<a href="#" target="_blank" class="link">ABOUT US</a><br>
+<a href="#" target="_blank" class="link">TERMS AND CONDITION</a><br>
+<a href="#" target="_blank" class="link">PAYMENT PROCEDURE</a><br>
+<a href="#" target="_blank" class="link">WHY US?</a>
+</td>
+<td>
+<a href="#" target="_blank" class="link">TOURS</a><br>
+<a href="#" target="_blank" class="link">TREKKINGS</a><br>
+<a href="#" target="_blank" class="link">HIKING</a><br>
+<a href="#" target="_blank" class="link">EXPEDITION</a><br>
+</td>
+<td>
+<a href="#" target="_blank" class="link">EVEREST BASE CAMP</a><br>
+<a href="#" target="_blank" class="link">ANNAPURNA BASE CAMP</a><br>
+<a href="#" target="_blank" class="link">GOKYO VALLEY TRACK</a><br>
+<a href="#" target="_blank" class="link">SEE MORE </a>
+</td>
+</tr>
+
+<tr>
+<td colspan="5">Copyright &#169; 2023. Designed by Himalaya Travels</td>
+</tr>
+</table>
+</footer>
+<!--End of footer section-->
+
+<body>
+</html>

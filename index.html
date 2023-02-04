@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+
+</title>
+<style>
+
+body{
+background-color:#F2F5FC;}
+
+.headerlink {
+text-decoration:none;
+color:white;
+}
+
+.logoimage{
+height:100px;
+width:300px;}
+
+.headertable{
+background-color:#F2F5FC;
+color:#164283;
+width:100%;
+}
+
+/* start of nav style part */
+
+nav {
+background:#074572;
+border-radius: 5px;
+}
+
+.dropdownbutton{
+color:white;
+background-color: #074572;
+border:none;
+border-radius:5px;
+box-shadow: 2px 0px 0px black;
+font-size:16px;
+padding:10px;
+margin-right: 30px;
+width: 150px;
+}
+.dropdownbutton:hover{box-shadow: 2px 2px 2px white;
+}
+
+.dropdown{
+position: relative;
+display: inline-block;
+}
+
+.dropdowncontent{
+display:none;
+position:absolute;
+border-radius: 5px;
+width:150px;
+background:rgba(7, 69, 114, 0.8);
+z-index:10;
+}
+
+.dropdowncontent a {
+color:white;
+display: block;
+text-decoration: none;
+padding: 10px;
+}
+
+.dropdown:hover .dropdowncontent{
+display: block;
+}
+
+.dropdowncontent a:hover {
+border-radius:0px;
+background-color: #074572;
+}
+
+/* end of nav style part */
+
+
+/* begin of video section style part */
+video {
+width:100%;
+z-index:-1;
+}
+
+select, .submit{
+height: 50px;
+border: 1px solid black;
+border-radius:20px;
+text-align:center;
+font-size:18px;
+padding:10px;
+
+option {border-radius:20px;}
+
+}
+
+.submit{
+color:white;
+background-color:#FC7300;
+width:100px;}
+
+.submit:hover {
+background-color:#F8CBA6;
+color:black;}
+
+.videocontainer{
+position:relative;
+}
+
+
+form {
+position:absolute;
+top:200px;
+left:200px;
+}
+
+/* end of video section style part */
+
+/* start of top destination section style part */
+.topdestination{
+height:400px;
+background-color: #F2F5FC;
+display:flex;
+flex-wrap:wrap;
+justify-content:space-evenly;
+}
+
+.destinationbox {
+background: linear-gradient(45deg, #074572, #F2F5FC);}
+
+.destinationbox img{
+height:200px;
+width:100%;
+border-radius: 5px 5px 0px 0px;
+}
+
+h3{
+text-align:center;
+text-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
+font-size:20px;}
+
+p{
+padding:5px;}
+
+.destinationbox{
+background-color:white;
+width:280px;
+border-radius: 5px;
+box-shadow:2px 2px 2px;}
+
+/* end of top destination section style part */
+
+/* start of customer review section style part */
+.review {
+display: flex;
+justify-content:center;
+gap: 80px;}
+
+.reviewcontainer{
+width: 40%;
+height: 300px;
+align:center;
+border:4px #301E67 dotted;
+position:relative;
+}
+
+h2{
+text-align:center;
+text-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.reviewimage1{position:absolute;
+top:75px;
+left:-75px;
+border: 2px #301E67 solid;
+border-radius:5px;}
+
+.reviewp{position: absolute;
+left: 80px;}
+
+/* end of customer review section style part */
+
+
+
+.gradient {
+text-align:center;
+background: linear-gradient(45deg, #074572, #F2F5FC);
+color:white;
+text-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);}
+
+/*start of footer style section*/
+
+.footertable{
+background-color: #074572;
+color:white;
+width: 100%;
+padding: 10px;
+border-spacing: 10px;
+line-height: 1.6;
+}
+
+td {text-align:center;}
+
+
+.footerbutton {display:block;
+border:none;
+box-shadow: 1px 1px 2px;
+color:white;
+line-height:1.6;
+width: 150px;
+border-radius:5px;
+background-color:#FC7300;
+}
+
+.socialbutton>img{
+border-radius:5px;
+box-shadow: 1px 1px 1px white;
+height:25px;
+width:25px;
+}
+
+.socialbutton>img:hover {
+opacity:0.5;
+transform:scale(1.2);
+}
+
+.footerbutton:hover {
+background-color:white;
+color:black;}
+
+.link {
+color:white;
+text-decoration:none;
+}
+
+.link:hover {
+background-color:white;
+color:black;
+padding:1px;
+}
+
+/*start of footer style section*/
+
+
+
+</style>
+</head>
+
+
+
+<body>
+
+<header>
+
+<table class="headertable">
+<tr>
+<td rowspan="3"><img src="image/logo.jpg" class="logoimage"/></td><td><em>"Discover Himalayas"<em></td>
+</tr>
+<tr>
+<td> For inquiry/booking: Call Us at <a href="callto:+977 9800000000">+977 9800000000</a> </td>
+</tr>
+<tr>
+<td> For inquiry/booking: Email Us at <a href="mailto:himalayatravels@himalaya.com">himalayatravels@himalaya.com</a></td>
+</tr>
+</table>
+
+</header>
+<br/>
+
+
+<!-- start of navigational section -->
+
+<nav align="center">
+<div class="dropdown">
+<button class="dropdownbutton" > <a href="index.html" class="headerlink">Home</a></button>
+</div>
+
+<div class="dropdown">
+<button class="dropdownbutton"> Trekking</button>
+<div class="dropdowncontent">
+<a href="gallery.html" target="_blank">Everest Base Trek</a>
+<a href="gallery.html" target="_blank">Annapurna Round Trek</a>
+<a href="gallery.html" target="_blank">Langtang Valley Trek</a>
+<a href="gallery.html" target="_blank">Gokyo Valley Trek</a>
+</div></div>
+
+<div class="dropdown">
+<button class="dropdownbutton" > Tours</button>
+<div class="dropdowncontent">
+<a href="gallery.html" target="_blank">Kathmandu Valley Tour</a>
+<a href="gallery.html" target="_blank">Janakpur Tour</a>
+<a href="gallery.html" target="_blank">Lumbini Tour</a>
+<a href="gallery.html" target="_blank">Pokhara Tour</a>
+</div></div>
+
+<div class="dropdown">
+<button class="dropdownbutton" >Company </button>
+<div class="dropdowncontent">
+<a href="contact.html" target="_blank">About Us</a>
+<a href="contact.html" target="_blank">Terms and Condition</a>
+<a href="contact.html" target="_blank">Contact</a>
+</div></div>
+
+<div class="dropdown">
+<button class="dropdownbutton" > <a href="gallery.html" class="headerlink" target="_blank"> Gallery </a></button>
+</div>
+
+<div class="dropdown">
+<button class="dropdownbutton"> <a href="contact.html" class="headerlink" target="_blank">Contact</a> </button>
+</div></nav>
+
+<!-- End of navigational section -->
+
+
+
+
+<div class="videocontainer">
+
+<video width="400" autoplay muted loop>
+  <source src="video/video.mp4" type="video/mp4">
+</video>
+<form action="/action_page.php">
+<select>
+<option selected disabled>What are you interested in?</option>
+<option>Tours</option>
+<option>Trekking</option>
+</select>
+
+<select>
+<option selected disabled>If Tours, please select</option>
+<option>Everest Region Trekking</option>
+<option>Annapurna Region Trekking</option>
+<option>Manaslu Region Trekking</option>
+<option>Langtang Region Trekking</option>
+</select>
+
+<select>
+<option selected disabled>If Trekking, please select</option>
+<option>Everest Region Trekking</option>
+<option>Annapurna Region Trekking</option>
+<option>Manaslu Region Trekking</option>
+<option>Langtang Region Trekking</option>
+</select>
+
+<input type="submit" value="Submit" class="submit">
+</form>
+</div>
+
+
+
+
+<h1 class="gradient">Top Destinations</h1>
+<div class="topdestination">
+<div class="destinationbox">
+<img src="image/everest.jpg" class="image" />
+<h3>Everest Base Camp Trek</h3>
+<p>The trek to Everest Base Camp is among the most dramatic and 
+picturesque in the Himalaya. The scenery is varied and spectacular, 
+the lodgings and tracks are of a very high standard, 
+and the interaction with the local Sherpa people is truly memorable. </p>
+</div>
+
+<div class="destinationbox">
+<img src="image/abc.jpg" class="image" />
+<h3>Annapurna Round Trek</h3>
+<p>The Annapurna Circuit has often been voted as the 
+best long-distance trek in the world! This is a comprehensive 
+trek that will take you through lush green subtropical forests, to 
+rugged alpine terrain while passing through culturally rich Buddhist 
+& Hindu Gurung & Manang villages. </p>
+</div>
+
+<div class="destinationbox">
+<img src="image/pokhara.jpg" class="image" />
+<h3>Pokhara Tour</h3>
+<p>"Pokhara is one of the most popular Tourist destinations on the 
+bosom of the Annapurna Himalayan range in Nepal. It is situated 
+200 kilometers west of Kathmandu. The place is an ideal place to 
+visit for the travelers. </p>
+</div>
+
+<div class="destinationbox">
+<img src="image/langtang.jpg" class="image" />
+<h3>Langtang Valley Trek</h3>
+<p>A visit to Langtang National Park, Nepal’s first Himalayan national 
+park- formed in 1976, is a wonderland of natural beauty and rich Tamang 
+culture and only a hop-step and jump from Kathmandu! </p>
+</div>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<h1 class="gradient">Customer Feedback/Reviews</h1>
+
+<div class="review">
+<div class="reviewcontainer">
+<img class="reviewimage1" src="image/review.jpg" height="150px" width="150px" />
+<h2 align="center">Awesome Guide Company</h2>
+<p class="reviewp">The team at Himalaya Travels were exceptional. 
+I had an amazing time trekking through the Himalayas, across the Three Passes and up to Everest Base Camp. 
+My guide was knowledgeable, friendly and ensured that I had the best experience possible. 
+I highly recommend Sherpa Expedition and Trekking their services was flawless. </p>
+
+</div>
+<div class="reviewcontainer">
+<img class="reviewimage1" src="image/review.jpg" height="150px" width="150px" />
+<h2 align="center">Great Experience...</h2>
+<p class="reviewp">It was my Third time in Nepal having the Himalayan experience. My wife and I were planning to 
+spend our holiday in Nepal for a long time, and also it was my longtime dream to trek to Himalaya and be in the mountains. 
+We then finally decided to venture for Upper Dolpo Trek which later turned into a lifetime experience for us. Having completed 
+this trek successfully with the help of the Himalaya Travels... </p>
+
+</div></div>
+
+
+<br/>
+<br/>
+
+
+
+<!--Start of footer section-->
+<footer>
+<table class="footertable">
+<tr>
+<th colspan="5">FOLLOW US ON: &nbsp; &nbsp;
+<a href="#" class="socialbutton" target="_blank"><img src="image/fa.JPG" /></a> &nbsp; &nbsp;
+<a href="#" class="socialbutton" target="_blank"><img src="image/in.JPG" /></a> &nbsp; &nbsp;
+<a href="#" class="socialbutton" target="_blank"><img src="image/tw.JPG" /></a>
+</th>
+</tr>
+<tr>
+<th><a href="#" target="_blank"class="link">PAGES</a></th><th><a href="#" class="link">USEFUL LINKS</a></th>
+<th><a href="#" target="_blank"class="link">ACTIVITIES</a></th><th><a href="#" class="link">TREKKING & TOURS</a></th>
+<th rowspan="3">
+<button class="footerbutton">CALL US FOR MORE DETAILS</button><br>
+<button class="footerbutton">PLAN MY TRIP</button><br>
+<button class="footerbutton"><a href="contact.html" target="_blank" class="link">CONTACT</a></button>
+</th>
+</tr>
+<tr>
+<td>
+<a href="#" target="_blank" class="link">HOME</a><br>
+<a href="#" target="_blank" class="link">OUR TEAM</a><br>
+<a href="#" target="_blank" class="link">B2B PARTNER</a><br>
+<a href="#" target="_blank" class="link">CONTACT</a>
+</ul>
+</td>
+<td>
+<a href="#" target="_blank" class="link">ABOUT US</a><br>
+<a href="#" target="_blank" class="link">TERMS AND CONDITION</a><br>
+<a href="#" target="_blank" class="link">PAYMENT PROCEDURE</a><br>
+<a href="#" target="_blank" class="link">WHY US?</a>
+</td>
+<td>
+<a href="#" target="_blank" class="link">TOURS</a><br>
+<a href="#" target="_blank" class="link">TREKKINGS</a><br>
+<a href="#" target="_blank" class="link">HIKING</a><br>
+<a href="#" target="_blank" class="link">EXPEDITION</a><br>
+</td>
+<td>
+<a href="#" target="_blank" class="link">EVEREST BASE CAMP</a><br>
+<a href="#" target="_blank" class="link">ANNAPURNA BASE CAMP</a><br>
+<a href="#" target="_blank" class="link">GOKYO VALLEY TRACK</a><br>
+<a href="#" target="_blank" class="link">SEE MORE </a>
+</td>
+</tr>
+
+<tr>
+<td colspan="5">Copyright &#169; 2023. Designed by Himalaya Travels</td>
+</tr>
+</table>
+</footer>
+<!--End of footer section-->
+
+<body>
+</html>
